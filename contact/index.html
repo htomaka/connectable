@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" > <!--<![endif]-->
+
+  <head>
+  	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/portfolio.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+  </head>
+
+  <body>	
+	
+    <header class="head">
+    <h1>Je conçois, je code, je communique</h1>
+</header>
+    
+    <div class="layout">
+      <nav class="nav clearfix">
+    <div>
+        <div>
+            <ul>
+                <li><a class="active" href="/">Profil</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <ul class="socialnav">
+                <li><a title="linked-in" href="http://fr.linkedin.com/pub/honor%C3%A9-tomaka/63/5aa/5b5/"><i class="icon-linkedin"></i></a></li>
+                <li><a title="twitter" href="https://twitter.com/HTomaka"><i class="icon-twitter"></i></a></li>
+                <li><a title="facebook" href="https://www.facebook.com/htomaka"><i class="icon-facebook"></i></a></li>
+            </ul>
+          </div>
+    </div>
+</nav>
+      <section class="list">
+  <div>
+    <article class="list-item clearfix">
+      <ul id="tabs">
+        
+        <li>
+          <a href="/portfolio/#portfolio">
+            <img src="/img/portfolio.jpg" height="124" width="150">
+            <h3>jesuisconnectable.com</h3>
+            <h4 class="tag-static">site statique</h4>
+            <p>
+              <span class="tools">Outils:</span> 
+              
+              Adobe Photoshop,
+              
+              HTML,
+              
+              CSS,
+              
+              knob.js,
+              
+              Map Box API,
+              
+              slides.js,
+              
+              Simpleform,
+              
+            </p>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/portfolio/#morabitine">
+            <img src="/img/morabitine-home.jpg" height="124" width="150">
+            <h3>Riad Dar Morabitine</h3>
+            <h4 class="tag-static">site statique</h4>
+            <p>
+              <span class="tools">Outils:</span> 
+              
+              Balsamiq,
+              
+              Photoshop,
+              
+              HTML5, CSS3,
+              
+              Skeleton,
+              
+              masonry.js,
+              
+              Fancybox,
+              
+              mosaic.js,
+              
+              Wufoo,
+              
+            </p>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/portfolio/#enfants">
+            <img src="/img/enfants-home.jpg" height="124" width="150">
+            <h3>Enfants Gâtés</h3>
+            <h4 class="tag-blog">blog</h4>
+            <p>
+              <span class="tools">Outils:</span> 
+              
+              Photoshop,
+              
+              xHTML,
+              
+              CSS,
+              
+            </p>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/portfolio/#play">
+            <img src="/img/play.jpg" height="124" width="150">
+            <h3>play-wizz.com</h3>
+            <h4 class="tag-ecommerce">ecommerce</h4>
+            <p>
+              <span class="tools">Outils:</span> 
+              
+              Photoshop,
+              
+              Prestashop,
+              
+              HTML,
+              
+              CSS,
+              
+              PHP,
+              
+            </p>
+          </a>
+        </li>
+        
+      </ul>
+    </article>
+  </div> <!-- end of content -->
+</section>
+
+      <section class="main">
+  <div class="main-item">
+  <section class="header clearfix">
+    <div>
+      <img class="avatar" src="/img/avatar.jpg" height="90" width="90">
+    </div>
+    <div>
+      <h2 class="title">Je m'appelle Honoré Tomaka</h2>
+      <p class="tagline">Je suis developpeur Front-end</p>
+    </div>
+  </section>
+</div>
+  <div class="content">
+    <div class="main-item">
+      <article class="contact-me">
+          <h2>Contactez-moi</h2>
+          <div id="map">
+          </div>
+          <h3>Formulaire de contact</h3>
+          <p><small>* Champs obligatoires</small></p>
+          <div class="contact-form">
+          <form name="contact" action="http://getsimpleform.com/messages?form_api_token=9bda894308e8151261fccb9d3175fd75" method="post">
+            <input type="text" id="nom" name="nom" placeholder="Nom" required>
+            <input type="email" id="email" name="email" placeholder="monemail@domaine.com" required>
+            <input type="text" id="societe" name="societe" placeholder="Société">
+            <input type="text" id="sujet" name="sujet" placeholder="Sujet">          
+            <textarea id="texte" name="texte" placeholder="Mon message" required></textarea>
+            <input type="submit" value="Envoyer" id="envoyer" name="envoyer">
+          </form>
+          </div>
+      </article>
+    </div>
+  </div>
+</section>
+<script>
+  var map = L.mapbox.map('map', 'connectable.map-7zj3sx6f');
+</script>
+      <footer id="footer">
+    <small>&copy; Honoré Tomaka, 2013</small>
+</footer>
+    </div> <!-- end of layout -->
+
+  </body>
+</html>
